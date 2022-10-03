@@ -5,7 +5,7 @@
         h1 {
             font-size: 60px;
             color: white;
-            font-family: 'Proxima', sans-serif;
+            font-family: 'Coming Soon', cursive;
             text-align: center;
             margin-top: -338px;
         }
@@ -55,6 +55,19 @@
         margin-right: auto;
         margin-left: auto;
 
+        .tripBox {
+            .elements {
+                h1 {
+                    font-family: 'Coming Soon', cursive;
+
+                }
+
+                h3 {
+                    font-family: 'Coming Soon', cursive;
+
+                }
+            }
+        }
     }
 }
 
@@ -74,7 +87,8 @@
             font-size: 60px;
             margin-left: 1%;
             margin-top: 50px;
-            font-family: 'Proxima';
+            font-family: 'Coming Soon', cursive;
+
         }
     }
 }
@@ -260,7 +274,7 @@ footer {
     padding-top: 15px;
     width: 67.5%;
     margin: 0 auto;
-    
+
 
 
     img {
@@ -272,18 +286,18 @@ footer {
 }
 
 .travel {
-        margin-left: 10%;
-        width: 92px;
-        height: 42px;
-        border: 2px solid white;
-        
-        p {
-            color: white;
-            font-size: 20px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            letter-spacing: 1.88px;
-            margin-top: 20px;
-        }
+    margin-left: 10%;
+    width: 92px;
+    height: 42px;
+    border: 2px solid white;
+
+    p {
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1.88px;
+        margin-top: 20px;
+    }
 
 }
 
@@ -298,19 +312,19 @@ footer {
 
 
 @media only screen and (max-width: 1706px) {
-    
+
     #AdultDropbox {
         margin-left: 10%;
     }
-    
+
     #Children {
         margin-left: 250px;
     }
-    
+
     #Rooms {
         margin-left: 500px;
     }
-    
+
     #RoomDropbox {
         margin-left: 24%;
     }

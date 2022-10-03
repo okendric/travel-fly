@@ -102,6 +102,10 @@
         margin-bottom: 100px;
         cursor: pointer;
 
+        &:hover {
+            background-color: #4b6e8b;
+        }
+
         p {
             text-transform: uppercase;
             color: white;

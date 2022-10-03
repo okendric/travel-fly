@@ -1,0 +1,124 @@
+.contactWrapper {
+    width: 984px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 148px;
+}
+
+.contactBox {
+    border-bottom: 2px solid black;
+    width: 159px;
+    height: 37px;
+    position: absolute;
+
+    h1 {
+        text-transform: uppercase;
+        color: black;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: 'Coming Soon', cursive;
+    }
+}
+
+.contact {
+    margin-top: 87px;
+    display: flex;
+
+    .map {
+        width: 400px;
+        margin-right: 50px;
+
+        .map-image {
+            width: 100%;
+            height: 442px;
+            margin-bottom: 34px;
+        }
+
+        .map-address {
+            width: 100%;
+            height: 161px;
+            letter-spacing: 1.5px;
+
+            p {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 18px;
+            }
+        }
+
+    }
+
+    .contactForm {
+        width: 529px;
+        height: 522px;
+
+        .textFields {
+            width: 100%;
+            height: 60px;
+            margin-bottom: 21px;
+            padding-left: 21px;
+            background-color: #f5f5f5;
+            border: none;
+        }
+
+        .longText {
+            width: 100%;
+            height: 199px;
+            margin-bottom: 21px;
+            padding-left: 21px;
+            padding-bottom: 130px;
+            background-color: #f5f5f5;
+            border: none;
+        }
+
+
+        .contactSubmit {
+            width: 168px;
+            text-align: center;
+            height: 60px;
+            background-color: #79addc;
+            display: flex;
+            padding-top: 20px;
+            justify-content: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #4b6e8b;
+            }
+
+            p {
+                color: white;
+                font-size: 16px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-transform: uppercase;
+                position: absolute;
+
+            }
+        }
+    }
+}
+
+
+.contactSpace {
+    height: 100px;
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .contact {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-left: 17%;
+        margin-top: 100px;
+    }
+
+    .contactBox {
+        position: absolute;
+        margin-left: 43%;
+
+    }
+
+    .map {
+        margin-bottom: 20px;
+    }
+}

@@ -175,6 +175,9 @@ footer img {
   margin-bottom: 100px;
   cursor: pointer;
 }
+.wrapperTourPages .bookNow:hover {
+  background-color: #4b6e8b;
+}
 .wrapperTourPages .bookNow p {
   text-transform: uppercase;
   color: white;
@@ -410,6 +413,7 @@ nav .links a {
   margin-right: auto;
 }
 .about .title {
+  font-family: "Coming Soon", cursive;
   width: 171px;
   font-size: 22px;
   border-bottom: 2px solid black;
@@ -431,6 +435,7 @@ nav .links a {
 }
 
 .client-title {
+  font-family: "Coming Soon", cursive;
   border-bottom: 2px solid black;
   width: 310px;
   height: 45px;
@@ -573,7 +578,7 @@ h1, h2, h3, h4, h5, h6, p {
 .home .hero h1 {
   font-size: 60px;
   color: white;
-  font-family: "Proxima", sans-serif;
+  font-family: "Coming Soon", cursive;
   text-align: center;
   margin-top: -338px;
 }
@@ -622,6 +627,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: auto;
   margin-left: auto;
 }
+.promo-trips .container .tripBox .elements h1 {
+  font-family: "Coming Soon", cursive;
+}
+.promo-trips .container .tripBox .elements h3 {
+  font-family: "Coming Soon", cursive;
+}
 
 .booking {
   max-width: 1280px;
@@ -639,7 +650,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 60px;
   margin-left: 1%;
   margin-top: 50px;
-  font-family: "Proxima";
+  font-family: "Coming Soon", cursive;
 }
 
 #Name {
@@ -922,5 +933,346 @@ footer img {
   footer img {
     margin-top: -80px;
     margin-right: 17%;
+  }
+}
+.special {
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 197px;
+}
+.special .titleSpecial {
+  width: 199px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  top: 148px;
+  height: 40px;
+}
+.special .titleSpecial h1 {
+  font-family: "Coming Soon", cursive;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 21px;
+  letter-spacing: 1px;
+  width: 290px;
+  height: 40px;
+  bottom: -18px;
+}
+
+.specialWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 600px;
+  margin-bottom: 25px;
+}
+.specialWrapper .specialImage {
+  width: 199px;
+  height: 287px;
+  margin-top: 35.5px;
+}
+.specialWrapper .specialImage img {
+  width: 199px;
+  height: 287px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.specialWrapper .specialBox {
+  height: 287px;
+  margin-top: 35.5px;
+  position: relative;
+  width: 315px;
+}
+.specialWrapper .specialBox .titleSpecial-2 {
+  width: 196px;
+  border-bottom: 2px solid black;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 20.5px;
+}
+.specialWrapper .specialBox .titleSpecial-2 h1 {
+  font-family: "Coming Soon", cursive;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 20.5px;
+  letter-spacing: 1px;
+  width: 290px;
+  height: 40px;
+  bottom: -18px;
+}
+.specialWrapper .specialParagraph {
+  width: 290px;
+  height: 131px;
+}
+.specialWrapper .specialParagraph p {
+  width: 290px;
+  height: 131px;
+  margin-left: 20.5px;
+  margin-top: 21.5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.4px;
+}
+.specialWrapper .discount p {
+  color: #ff8442;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  top: 0px;
+  right: -15px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.specialWrapper .learnMore {
+  width: 133px;
+  text-align: center;
+  height: 40px;
+  padding: 10px 30px;
+  background-color: #79addc;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 21px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.specialWrapper .learnMore:hover {
+  background-color: #4b6e8b;
+}
+.specialWrapper .learnMore p {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  font-family: "Coming Soon", cursive;
+}
+
+.specialSpace {
+  height: 75px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .specialWrapper {
+    width: 300px;
+    margin-left: 20%;
+  }
+
+  .specialBox {
+    margin-left: -20px;
+  }
+}
+.blogContainer {
+  width: 53.1%;
+  margin: 0 auto;
+  padding-top: 228px;
+}
+.blogContainer .blogBox {
+  border-bottom: 2px solid black;
+  width: 106px;
+  height: 40px;
+  position: absolute;
+  top: 148px;
+}
+.blogContainer .blogBox h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Coming Soon", cursive;
+}
+.blogContainer .blogDate {
+  text-align: center;
+  background-color: #79addc;
+  min-width: 60px;
+  margin-bottom: 20px;
+  height: 60px;
+  padding-top: 5px;
+  color: white;
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blogContainer .blogDate h1 {
+  font-size: 25px;
+  margin: 0 auto;
+  width: 38px;
+  height: 28px;
+}
+.blogContainer .blogDate h2 {
+  font-size: 14px;
+  margin: 0 auto;
+  width: 28px;
+  height: 15px;
+  text-transform: uppercase;
+}
+.blogContainer .blogGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -8.5px;
+}
+.blogContainer .blogGroup .blogImage {
+  width: 900px;
+  height: 239px;
+}
+.blogContainer .blogGroup .blogImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blogContainer .blogGroup-2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 100px;
+}
+.blogContainer .blogGroup-2 h4 {
+  margin-top: 20px;
+  font-size: 13px;
+  width: 245px;
+  height: 22px;
+}
+.blogContainer .blogGroup-2 h5 {
+  font-size: 11.5px;
+  color: #79addc;
+  width: 380px;
+  height: 64px;
+  margin-top: -5px;
+  line-height: 16px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .blogContainer .blogGroup .blogImage img {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 1290px) {
+  .blogContainer .blogGroup .blogImage img {
+    width: 370px;
+  }
+}
+.contactWrapper {
+  width: 984px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 148px;
+}
+
+.contactBox {
+  border-bottom: 2px solid black;
+  width: 159px;
+  height: 37px;
+  position: absolute;
+}
+.contactBox h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Coming Soon", cursive;
+}
+
+.contact {
+  margin-top: 87px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact .map {
+  width: 400px;
+  margin-right: 50px;
+}
+.contact .map .map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+}
+.contact .map .map-address {
+  width: 100%;
+  height: 161px;
+  letter-spacing: 1.5px;
+}
+.contact .map .map-address p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.contact .contactForm {
+  width: 529px;
+  height: 522px;
+}
+.contact .contactForm .textFields {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 21px;
+  background-color: #f5f5f5;
+  border: none;
+}
+.contact .contactForm .longText {
+  width: 100%;
+  height: 199px;
+  margin-bottom: 21px;
+  padding-left: 21px;
+  padding-bottom: 130px;
+  background-color: #f5f5f5;
+  border: none;
+}
+.contact .contactForm .contactSubmit {
+  width: 168px;
+  text-align: center;
+  height: 60px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.contact .contactForm .contactSubmit:hover {
+  background-color: #4b6e8b;
+}
+.contact .contactForm .contactSubmit p {
+  color: white;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.contactSpace {
+  height: 100px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    margin-left: 17%;
+    margin-top: 100px;
+  }
+
+  .contactBox {
+    position: absolute;
+    margin-left: 43%;
+  }
+
+  .map {
+    margin-bottom: 20px;
   }
 }

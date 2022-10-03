@@ -1,0 +1,109 @@
+.blogContainer {
+    width: 53.1%;
+    margin: 0 auto;
+    padding-top: 228px;
+
+    .blogBox {
+        border-bottom: 2px solid black;
+        width: 106px;
+        height: 40px;
+        position: absolute;
+        top: 148px;
+
+        h1 {
+            text-transform: uppercase;
+            color: black;
+            font-size: 22px;
+            letter-spacing: 2px;
+            font-family: 'Coming Soon', cursive;
+        }
+    }
+
+    .blogDate {
+
+        text-align: center;
+        background-color: #79addc;
+        min-width: 60px;
+        margin-bottom: 20px;
+        height: 60px;
+        padding-top: 5px;
+        color: white;
+        margin-right: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        h1 {
+            font-size: 25px;
+            margin: 0 auto;
+            width: 38px;
+            height: 28px;
+        }
+
+        h2 {
+            font-size: 14px;
+            margin: 0 auto;
+            width: 28px;
+            height: 15px;
+            text-transform: uppercase;
+        }
+    }
+
+
+    .blogGroup {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -8.5px;
+
+        .blogImage {
+            width: 900px;
+            height: 239px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+    .blogGroup-2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 100px;
+
+        h4{
+            margin-top: 20px;
+            font-size: 13px;
+            width: 245px;
+            height: 22px;
+        }
+
+        h5 {
+            font-size: 11.5px;
+            color: #79addc;
+            width: 380px;
+            height: 64px;
+            margin-top: -5px;
+            line-height: 16px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .blogContainer .blogGroup .blogImage {
+        img {
+            width: 600px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1290px) {
+
+.blogContainer .blogGroup .blogImage {
+        img {
+            width: 370px;
+        }
+    }
+}
