@@ -1,0 +1,926 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  width: 67.9%;
+  height: 70px;
+  background-color: #79ADDC;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+footer img {
+  position: absolute;
+  right: 0;
+  margin-top: -35px;
+  margin-right: 23%;
+}
+
+.travel {
+  margin-left: 10%;
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+}
+.travel p {
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.88px;
+  margin-top: 20px;
+}
+
+#foot {
+  color: white;
+  text-align: center;
+  margin-top: -30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1115px) {
+  #foot {
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin-top: -57px;
+    padding-top: 17px;
+  }
+
+  footer img {
+    margin-top: -60px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  #foot {
+    width: 110px;
+    height: 70px;
+    position: relative;
+    margin-top: -57px;
+    padding-top: 10px;
+  }
+
+  footer img {
+    margin-top: -60px;
+    margin-right: 17%;
+  }
+}
+.headerTourPages {
+  width: 51.2%;
+  margin: 0 auto;
+  padding-top: 141px;
+  position: relative;
+}
+.headerTourPages h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  color: white;
+  z-index: 98;
+  margin-top: 53px;
+  margin-left: 35px;
+}
+.headerTourPages p {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  right: 0;
+  color: white;
+  z-index: 98;
+  margin-top: -30px;
+  margin-right: 5px;
+}
+.headerTourPages img {
+  width: 100%;
+  height: 413px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.55);
+          filter: brightness(0.55);
+}
+
+.threeImages {
+  width: 51.2%;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.threeImages img {
+  width: 298px;
+  height: 347px;
+  margin-bottom: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapperTourPages {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 51.2%;
+  margin-top: -610px;
+}
+.wrapperTourPages .paragraph {
+  margin-bottom: 70px;
+}
+.wrapperTourPages .paragraph .title {
+  width: 160px;
+  height: 60px;
+  border-bottom: 2px solid black;
+}
+.wrapperTourPages .paragraph .title p {
+  font-family: "Coming soon", cursive;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.wrapperTourPages .paragraph .text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-top: 38px;
+  letter-spacing: 1.5px;
+}
+.wrapperTourPages .bookNow {
+  background-color: #79ADDC;
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding-top: 11px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.wrapperTourPages .bookNow p {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1763px) {
+  .wrapperTourPages {
+    margin-top: -125px;
+  }
+}
+@media only screen and (max-width: 1181px) {
+  .wrapperTourPages {
+    margin-top: 131px;
+  }
+
+  .headerTourPages p {
+    font-size: 15px;
+  }
+}
+.wrapperTourList {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+  width: 818px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 190px;
+}
+.wrapperTourList .tour {
+  width: 236px;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 55px;
+  font-family: "Coming Soon";
+}
+.wrapperTourList .tour img {
+  width: 100%;
+  height: 304px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+.wrapperTourList .tour .ontop {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapperTourList .tour h1 {
+  color: white;
+  margin-bottom: 5px;
+}
+.wrapperTourList .tour .price {
+  margin-bottom: 56px;
+  text-transform: uppercase;
+  color: white;
+}
+.wrapperTourList .tour .learnMore {
+  width: 133px;
+  text-align: center;
+  height: 40px;
+  padding: 10px 30px;
+  background-color: #79addc;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.wrapperTourList .tour .learnMore:hover {
+  background-color: #4b6e8b;
+}
+.wrapperTourList .tour .learnMore p {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.headerTourList {
+  width: 51.2%;
+  height: 200px;
+  padding-top: 142px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.headerTourList .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.headerTourList .text h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-top: 60px;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  z-index: 98;
+}
+.headerTourList img {
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+}
+
+@media only screen and (max-width: 855px) {
+  .wrapperTourList {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .wrapperTourList {
+    width: 236px;
+  }
+}
+nav {
+  position: fixed;
+  height: 92.5px;
+  width: 51.2%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid black;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 38px;
+  border: 2px solid black;
+  margin-top: 14px;
+  position: absolute;
+}
+nav .logo p {
+  color: black;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.88px;
+  margin-top: 17px;
+  margin-left: -3px;
+  position: absolute;
+}
+nav .links {
+  margin-left: 50%;
+  width: 50%;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #79ADDC;
+  margin-top: 30px;
+}
+nav .links a {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 1500px) {
+  nav .links {
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  nav .links {
+    margin-left: 50%;
+    width: 30%;
+  }
+  nav .links a {
+    padding: 5px;
+    font-size: 13px;
+  }
+}
+.about {
+  width: 76.4%;
+  padding-top: 181px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about .title {
+  width: 171px;
+  font-size: 22px;
+  border-bottom: 2px solid black;
+  height: 65px;
+  width: 210px;
+}
+.about p {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  width: 85%;
+  padding-top: 40px;
+}
+
+.client-quotes {
+  margin-top: 95px;
+  width: 76.4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client-title {
+  border-bottom: 2px solid black;
+  width: 310px;
+  height: 45px;
+}
+
+.wrapperAbout {
+  margin-top: 37px;
+  max-width: 76.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapperAbout .person-1 {
+  position: relative;
+  max-width: 676px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+.wrapperAbout .person-1 .image-1 {
+  width: 260px;
+  height: 150px;
+}
+.wrapperAbout .person-1 .image-1 img {
+  width: 260px;
+  height: 150px;
+}
+.wrapperAbout .person-1 .text-1 {
+  margin-left: 21px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  width: 400px;
+}
+.wrapperAbout .person-1 .author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+  color: #bfd8ee;
+}
+
+.spacer {
+  height: 179px;
+}
+
+@media only screen and (max-width: 800px) {
+  .person-1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .text-1 {
+    padding-bottom: 20px;
+  }
+
+  .image-1 {
+    margin-bottom: 20px;
+  }
+}
+.tripBox {
+  width: 236px;
+  height: 304px;
+  padding: 5px;
+}
+.tripBox img {
+  height: 100%;
+  width: 100%;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
+.tripBox .elements h1 {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Proxima";
+  font-size: 30px;
+  margin-top: -250px;
+}
+.tripBox .elements h3 {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-family: "Proxima";
+  font-size: 19px;
+  margin-top: 30px;
+}
+.tripBox .elements .learn-more {
+  height: 40px;
+  width: 133px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 1px;
+  padding-top: 11px;
+  margin-top: 60px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tripBox .elements .learn-more:hover {
+  background-color: #4b6e8b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-containerHome {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+.splash img {
+  width: 100%;
+  height: 500px;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  z-index: 99;
+}
+
+.home .hero {
+  position: relative;
+}
+.home .hero h1 {
+  font-size: 60px;
+  color: white;
+  font-family: "Proxima", sans-serif;
+  text-align: center;
+  margin-top: -338px;
+}
+.home .hero p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 36%;
+  margin: 0 auto;
+}
+.home .hero .read-more {
+  height: 40px;
+  cursor: pointer;
+  width: 122px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  margin-top: 50px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home .hero .read-more:hover {
+  background-color: #4b6e8b;
+}
+
+.promo-trips {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.promo-trips .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: -50px;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.booking {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+  height: 1000px;
+}
+.booking .booking-wrapper {
+  width: 65%;
+  margin: 0 auto;
+}
+.booking .booking-wrapper #Booking {
+  color: black;
+  position: absolute;
+  font-size: 60px;
+  margin-left: 1%;
+  margin-top: 50px;
+  font-family: "Proxima";
+}
+
+#Name {
+  height: 58px;
+  width: 41%;
+  font-size: 18px;
+  margin: 2%;
+  margin-top: 150px;
+  border-color: #79ADDC;
+}
+
+#Email {
+  height: 58px;
+  width: 52.5%;
+  font-size: 18px;
+  margin: 0%;
+  margin-top: 150px;
+  border-color: #79ADDC;
+}
+
+#Country {
+  height: 58px;
+  width: 41%;
+  font-size: 18px;
+  margin: 2%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#Hotel {
+  height: 58px;
+  width: 52.5%;
+  font-size: 18px;
+  margin: 0%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#CheckInLabel {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
+  width: 100px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+#CheckIn {
+  height: 58px;
+  width: 80%;
+  font-size: 18px;
+  margin-left: 18%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#CheckOutLabel {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
+  width: 100px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+#CheckOut {
+  height: 58px;
+  width: 80%;
+  font-size: 18px;
+  margin-left: 18%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#Adult {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
+  width: 100px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+#AdultDropbox {
+  width: 103px;
+  height: 58px;
+  margin-left: 18%;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-color: #79ADDC;
+}
+
+#Children {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 320px;
+  width: 100px;
+  margin-top: -40px;
+  position: absolute;
+}
+
+#ChildDropbox {
+  width: 103px;
+  height: 58px;
+  margin-left: 10%;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 30px;
+  position: absolute;
+  border-color: #79ADDC;
+}
+
+#Rooms {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 600px;
+  margin-top: -42px;
+  width: 100px;
+  position: absolute;
+}
+
+#RoomDropbox {
+  width: 103px;
+  height: 58px;
+  margin-left: 24%;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 30px;
+  position: absolute;
+  border-color: #79ADDC;
+}
+
+#Textbox {
+  height: 192px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 130px;
+  position: absolute;
+  border-color: #79ADDC;
+  outline: 0px;
+}
+
+.submit {
+  height: 70px;
+  width: 42%;
+  cursor: pointer;
+  background-color: #79ADDC;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 275px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-color: #79ADDC;
+}
+.submit:hover {
+  background-color: #4b6e8b;
+}
+
+footer {
+  height: 70px;
+  background-color: #79ADDC;
+  padding-top: 15px;
+  width: 67.5%;
+  margin: 0 auto;
+}
+footer img {
+  position: absolute;
+  right: 0;
+  margin-top: -55px;
+  margin-right: 23%;
+}
+
+.travel {
+  margin-left: 10%;
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+}
+.travel p {
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.88px;
+  margin-top: 20px;
+}
+
+#foot {
+  color: white;
+  text-align: center;
+  margin-top: -30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1706px) {
+  #AdultDropbox {
+    margin-left: 10%;
+  }
+
+  #Children {
+    margin-left: 250px;
+  }
+
+  #Rooms {
+    margin-left: 500px;
+  }
+
+  #RoomDropbox {
+    margin-left: 24%;
+  }
+}
+@media only screen and (max-width: 1550px) {
+  #Adult {
+    margin-top: 5px;
+  }
+
+  #AdultDropbox {
+    margin-left: 15px;
+  }
+
+  #Children {
+    margin-top: -82px;
+    margin-left: 168px;
+  }
+
+  #ChildDropbox {
+    margin-left: 50px;
+  }
+
+  #Rooms {
+    margin-top: -82px;
+    margin-left: 325px;
+  }
+
+  #RoomDropbox {
+    margin-left: 208px;
+  }
+}
+@media only screen and (max-width: 1115px) {
+  #foot {
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin-top: -57px;
+    padding-top: 17px;
+  }
+
+  footer img {
+    margin-top: -80px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  #foot {
+    width: 110px;
+    height: 70px;
+    position: relative;
+    margin-top: -57px;
+    padding-top: 10px;
+  }
+
+  footer img {
+    margin-top: -80px;
+    margin-right: 17%;
+  }
+}

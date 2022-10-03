@@ -1,0 +1,133 @@
+.wrapperTourList {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+  width: 818px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 190px;
+}
+.wrapperTourList .tour {
+  width: 236px;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 55px;
+  font-family: "Coming Soon";
+}
+.wrapperTourList .tour img {
+  width: 100%;
+  height: 304px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+.wrapperTourList .tour .ontop {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapperTourList .tour h1 {
+  color: white;
+  margin-bottom: 5px;
+}
+.wrapperTourList .tour .price {
+  margin-bottom: 56px;
+  text-transform: uppercase;
+  color: white;
+}
+.wrapperTourList .tour .learnMore {
+  width: 133px;
+  text-align: center;
+  height: 40px;
+  padding: 10px 30px;
+  background-color: #79addc;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.wrapperTourList .tour .learnMore:hover {
+  background-color: #4b6e8b;
+}
+.wrapperTourList .tour .learnMore p {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.headerTourList {
+  width: 51.2%;
+  height: 200px;
+  padding-top: 142px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.headerTourList .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.headerTourList .text h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-top: 60px;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  z-index: 98;
+}
+.headerTourList img {
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+}
+
+@media only screen and (max-width: 855px) {
+  .wrapperTourList {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .wrapperTourList {
+    width: 236px;
+  }
+}

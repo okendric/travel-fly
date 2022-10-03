@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script>
+      function toIsreal() {
+        document.getElementById("toIsrealButton").onclick = window.open(
+          "isrealTour.html",
+          "_self"
+        );
+      }
+
+      function toUSA() {
+        document.getElementById("toUSAButton").onclick = window.open(
+          "USATour.html",
+          "_self"
+        );
+      }
+
+      function toAustralia() {
+        document.getElementById("toAUSButton").onclick = window.open(
+          "australiaTour.html",
+          "_self"
+        );
+      }
+
+      function toAbout() {
+        document.getElementById("aboutButton").onclick = window.open("about.html", "_self");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="site-containerHome">
+      <nav>
+        <div class="logo">
+          <p>travel-fly</p>
+        </div>
+        <div class="links">
+          <a href="index.html">home</a> | <a href="about.html">about</a> | <a href="toursList.html">tours</a> |
+          <a href="#">special offers</a> | <a href="#">blog</a> |
+          <a href="#">contact</a>
+        </div>
+      </nav>
+
+      <div class="splash">
+        <div class="overlay"></div>
+        <img src="images/hero.jpg" alt="" />
+      </div>
+
+      <div class="home">
+        <section class="hero">
+          <h1>travel-fly</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <br />Fugiat aliquid minus nemo sed est.
+          </p>
+          <div id="aboutButton" onclick="toAbout()" class="read-more">READ MORE</div>
+        </section>
+      </div>
+    </div>
+
+    <section class="promo-trips">
+      <div class="container">
+        <div class="tripBox">
+          <img src="images/tour/tour-israel/israel-tour-01.jpg" alt="" />
+          <div class="elements">
+            <h1>ISREAL</h1>
+            <h3>FROM $1000</h3>
+            <div id="toIsrealButton" onclick="toIsreal()" class="learn-more">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="tripBox">
+          <img src="images/tour/tour-usa/usa-tour-03.jpg" alt="" />
+          <div class="elements">
+            <h1>U.S.A</h1>
+            <h3>FROM $1300</h3>
+            <div id="toUSAButton" onclick="toUSA()" class="learn-more">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="tripBox">
+          <img src="images/tour/tour-aus/aus-tour-03.jpg" alt="" />
+          <div class="elements">
+            <h1>AUSTRALIA</h1>
+            <h3>FROM $1700</h3>
+            <div id="toAUSButton" onclick="toAustralia()" class="learn-more">LEARN MORE</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="booking-wrapper">
+        <p id="Booking">BOOKING FORM</p>
+        <input id="Name" type="text" placeholder="    name..." >
+
+        <input id="Email" type="email" placeholder="    email..." >
+
+        <input id="Country" type="text" placeholder="    country..." >
+
+        <input id="Hotel" type="text" placeholder="    hotel..." >
+
+        <p id="CheckInLabel">Check-in</p>
+        <input id="CheckIn" type="date">
+
+        <p id="CheckOutLabel">Check-out</p>
+        <input id="CheckOut" type="date">
+        
+        <p id="Adult">Adult</p>
+        <select name="" id="AdultDropbox">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+
+        <p id="Children">Children</p>
+        <select name="" id="ChildDropbox">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+
+        <p id="Rooms">Rooms</p>
+        <select name="" id="RoomDropbox">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+
+        <input id="Textbox" type="text" placeholder="  message...">
+      </div>
+
+    <input class="submit" type="submit" value="SUBMIT">
+  </section>
+  
+    <footer>
+      <div class="travel">
+        <p>travel-fly</p>
+      </div>
+
+      <p id="foot">Copyright 2019 travel-fly. All rights reserved.</p>
+      <img src="images/socials.png" alt="">
+    </footer>
+    
+  </body>
+</html>

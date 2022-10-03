@@ -1,0 +1,130 @@
+.headerTourPages {
+    width: 51.2%;
+    margin: 0 auto;
+    padding-top: 141px;
+    position: relative;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 42px;
+        font-family: 'Coming Soon', cursive;
+        position: absolute;
+        color: white;
+        z-index: 98;
+        margin-top: 53px;
+        margin-left: 35px;
+    }
+
+    p {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-family: 'Coming Soon', cursive;
+        position: absolute;
+        right: 0;
+        color: white;
+        z-index: 98;
+        margin-top: -30px;
+        margin-right: 5px;
+    }
+
+
+    img {
+        width: 100%;
+        height: 413px;
+        object-fit: cover;
+        filter: brightness(0.55);
+    }
+
+}
+
+.threeImages {
+    width: 51.2%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    img {
+        width: 298px;
+        height: 347px;
+        margin-bottom: 30px;
+        object-fit: cover;
+    }
+
+}
+
+
+.wrapperTourPages {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 51.2%;
+    margin-top: -610px;
+
+    .paragraph {
+        margin-bottom: 70px;
+
+
+        .title {
+            width: 160px;
+            height: 60px;
+            border-bottom: 2px solid black;
+
+            p {
+                font-family: 'Coming soon', cursive;
+                font-size: 42px;
+                text-transform: uppercase;
+            }
+        }
+
+        .text {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            margin-top: 38px;
+            letter-spacing: 1.5px;
+
+        }
+
+    }
+
+    .bookNow {
+        background-color: #79ADDC;
+        width: 133px;
+        height: 40px;
+        border-radius: 30px;
+        margin: 0 auto;
+        padding-top: 11px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        cursor: pointer;
+
+        p {
+            text-transform: uppercase;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 1763px) {
+    .wrapperTourPages {
+        margin-top: -125px;
+    }
+}
+
+@media only screen and (max-width: 1181px) {
+    .wrapperTourPages {
+        margin-top: 131px;
+    }
+
+    .headerTourPages {
+        p {
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.about {
+    width: 76.4%;
+    padding-top: 181px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .title {
+        width: 171px;
+        font-size: 22px;
+        border-bottom: 2px solid black;
+        height: 65px;
+        width: 210px;
+    }
+
+    p {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        width: 85%;
+        padding-top: 40px;
+    }
+}
+
+.client-quotes {
+    margin-top: 95px;
+    width: 76.4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .client-title {
+        border-bottom: 2px solid black;
+        width: 310px;
+        height: 45px;
+    }
+
+    .wrapperAbout {
+        margin-top: 37px;
+        max-width: 76.5%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .person-1 {
+            position: relative;
+            max-width: 676px;
+            display: flex;
+            margin-bottom: 20px;
+
+            .image-1 {
+                width: 260px;
+                height: 150px;
+
+                img {
+                    width: 260px;
+                    height: 150px;
+                }
+            }
+
+            .text-1 {
+                margin-left: 21px;
+                font-size: 16px;
+                letter-spacing: 1.5px;
+                width: 400px;
+            }
+
+            .author {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                font-size: 18px;
+                color: #bfd8ee;
+            }
+        }
+    }
+
+    .spacer {
+        height: 179px;
+    }
+
+
+
+@media only screen and (max-width: 800px) {
+    .person-1 {
+        flex-wrap: wrap;
+    }
+
+    .text-1 {
+        padding-bottom: 20px;
+    }
+
+    .image-1 {
+        margin-bottom: 20px;
+    }
+}

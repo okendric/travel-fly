@@ -1,0 +1,58 @@
+.tripBox {
+    width: 236px;
+    height: 304px;
+    padding: 5px;
+    
+    img {
+        height: 100%;
+        width: 100%;
+        filter: brightness(70%);
+        
+    }
+
+   .elements {
+    h1 {
+        position: relative;
+        color: white;
+        text-align: center;
+        font-family: 'Proxima';
+        font-size: 30px;
+        margin-top: -250px;
+        
+    }
+
+    h3 {
+        color: white;
+        position: relative;
+        text-align: center;
+        font-family: 'Proxima';
+        font-size: 19px;
+        margin-top: 30px;
+        
+    }
+
+    .learn-more {
+        height: 40px;
+        width: 133px;
+        background-color: #79ADDC;
+        font-size: 15px;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        letter-spacing: 1px;
+        padding-top: 11px;
+        margin-top: 60px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        &:hover {
+            background-color: #4b6e8b;
+
+        }
+    }
+   }
+
+}
